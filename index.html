@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble & Bliss Restaurant</title>
+     
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+         header{
+            background-color: turquoise;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            justify-content: space-between;
+         }
+         .bs{
+            background-color: azure;
+            color: brown;
+            width: 120px;
+             margin-left: 620px;
+            margin-top: 20px;
+            border-radius: 5px;
+            padding: 5px;
+         }
+         .hh{
+            color: darkgoldenrod;
+            padding-left: 40px;
+         }
+         a{
+            text-decoration: none;
+            margin-right: auto;
+            color: brown;
+            list-style: none;
+            padding: 20px;
+            font-weight: bold;
+         }
+         a:hover{
+            color: beige;
+         }
+         .hero-section{
+            background-image: url('Images/cafe-marco-is-marco-polo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 85vh;
+            padding-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+         }
+         .hero{
+            text-align: center;
+            font-weight: bold;
+            color: chocolate;
+         }
+         .general{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 60px;
+            gap: 20px;
+            text-align: center;
+        }
+         .no{
+            /* border: 4px solid linen; */
+            height: 70vh;
+         }
+         .bn{
+            background-color: blueviolet;
+            color: antiquewhite;
+            border-radius: 5px;
+            width: 90px;
+            padding: 6px;
+         }
+         .bn:hover{
+            background-color: antiquewhite;
+            color: crimson;
+            transform: translateY(-5px);
+            cursor: pointer;
+         }
+         .card{
+            /* background-color: olive; */
+             border: 4px solid linen;
+             border-radius: 4px;
+             width: 450px;
+             margin: 7px;
+         }
+         .card-price{
+            font-weight: bold;
+            color: goldenrod;
+            padding-bottom: 5px;
+         }
+         .bts{
+            display: flex;
+            /* text-align: center; */
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+         }
+         .btn{
+            background-color: darkgoldenrod;
+            color: white;
+            padding: 8px;
+            border-radius: 7px;
+            cursor: pointer;
+         }
+         .main-footer{
+            background-color: rgb(21, 1, 30);
+            text-align: center;
+            height: 45vh;
+            color: gray;
+         }
+        </style>
+    
+</head>
+<body>
+    
+
+
+    <header>
+        <!-- <img src="Images/Noble & Bliss Restaurant at Dusk.png" alt="company logo"> -->
+       <h1 class="hh">NOBLE & BLISS RESTAURANT</h1>
+        <nav>
+            <ul>
+                <a href="#home">HOME</a>
+                <a href="#menu">MENU</a>
+                <a href="#about">ABOUT</a>
+                <a href="#contact">CONTACT</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <h1 class="h">Fresh And Delicious Food, Satisfied Taste Buds</h1>
+            <p>This is Noble & Bliss Restaurant, where we give you the best service and make your taste buds satisfaction our priority</p>
+           <button class="bs">View Details</button>
+        </section>
+
+        <div class="hero">
+            <h1>Our Popular Dishes</h1>
+            <p>We await your orders, come and experience satisfaction</p>
+        </div>
+    </main>
+    <div class="general" id="menu">
+    <div class="no">
+        <div class="card">
+            <img src="Images/Egg and Plantain_1024x1024.jpg" style="width: 350px;" alt="image 1">
+            <div class="card-content">
+                <h2>Egg & Plantain</h2>
+                <h3 class="card-price"><span>₦6,500</span></h3>
+                 <button class="bn">Order</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="no">
+        <div class="card">
+            <img src="Images/Jollof-rice-16-500x375.jpg" style="width: 450px;" alt="image 2">
+            <div class="card-content">
+                <h2>Jollof Rice</h2>
+                <h3 class="card-price"><span>₦6,500</span></h3>
+                 <button class="bn">Order</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="no">
+        <div class="card">
+            <img src="Images/Egusi Soup.jpg" style="width: 330px;" alt="image 3">
+            <div class="card-content">
+                <h2>Egusi Soup</h2>
+                <h3 class="card-price"><span>₦5,500</span></h3>
+                 <button class="bn">Order</button>
+            </div>
+        </div>
+     </div>
+        
+        <div class="no">
+        <div class="card">
+            <img src="Images/Vegetable Soup.webp" style="width: 300px;" alt="image 4">
+            <div class="card-content">
+                <h2>Vegetable Soup</h2>
+                <h3 class="card-price"><span>₦6,000</span></h3>
+                <button class="bn">Order</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="no">
+            <div class="card">
+                <img src="Images/Beans and plantain.webp" style="width: 350px;" alt="image 5">
+                <div class="card-content">
+                    <h2>Beans And Plantain</h2>
+                    <h3 class="card-price"><span>₦5,000</span></h3>
+                    <button class="bn">Order</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="no">
+            <div class="card">
+                <img src="Images/Ogbono Soup.jpg" style="width: 350px;" alt="image 6">
+                <div class="card-content">
+                    <h2>Ogbono Soup</h2>
+                    <h3 class="card-price"><span>₦6,000</span></h3>
+                    <button class="bn">Order</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <div class="bts">
+         <div class="img" id="about">
+        <img src="Images/Noble & Bliss Restaurant at Dusk.png" style="width: 800px;" alt="company image">
+        </div>
+      <div>  
+        <h1>About Noble and Bliss Restaurant</h1>
+        <h4>We are committed to your satisfaction</h4>
+        <p>At noble & bliss Restaurant we have some of the best cooks in the country to give you that satisfying taste you can only get at our place by preparing your meals with all fresh ingredients. Your satisfaction is our priority </p>
+        <button class="btn">Contact Us</button>
+      </div>  
+
+    </div>
+
+    <footer class="main-footer" id="Contact">
+        <div class="link" id="contact">
+         <h1 style="color:goldenrod;">Noble & Bliss Restaurant</h1>
+            <h4>A place of satisfaction.The best there is </h4>
+            <p>Address:  22, praise avenue, Abakpa Enugu state</p>
+             <p>Contact: +234 7030419800</p>
+             <p>Email:   noble&bliss@yahoo.com</p>
+             <h3 class="socials" style="color: whitesmoke;">  <span>Facebook</span>  <span>X</span>  <span>Instagram</span></h3><hr>
+        </div>
+
+        <div class="footer-link" style="margin-top: 30px;">
+          <p>&copy; 2026 Noble & Bliss Restaurant. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
